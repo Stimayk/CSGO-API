@@ -4,3 +4,8 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    commit-message:
+      prefix: "deps"
+    open-pull-requests-limit: 10
+    automerge: true
+    rebase-strategy: "auto"
